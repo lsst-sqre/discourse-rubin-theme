@@ -1,5 +1,19 @@
 {
   "name": "Rubin Observatory",
   "about_url": "https://github.com/lsst-sqre/discourse-rubin-theme/blob/main/README.md",
-  "license_url": "https://github.com/lsst-sqre/discourse-rubin-theme/blob/main/LICENSE"
+  "license_url": "https://github.com/lsst-sqre/discourse-rubin-theme/blob/main/LICENSE",
+  "color_schemes": {
+    "Light": {
+      "primary": "1f2121",
+      "secondary": "ffffff",
+      "tertiary": "058b8c",
+      "quaternary": "058b8c",
+      "header_background": "1f2121",
+      "header_primary": "ffffff",
+      "highlight": "ffe266",
+      "danger": "ed4c4c",
+      "success": "583671",
+      "love": "fa6c8d"
+    }
+  }
 }

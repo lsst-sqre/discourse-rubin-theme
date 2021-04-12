@@ -14,6 +14,18 @@
       "danger": "ed4c4c",
       "success": "583671",
       "love": "fa6c8d"
+    },
+    "Dark": {
+      "primary": "dce0e3",
+      "secondary": "1f2121",
+      "tertiary": "058b8c",
+      "quaternary": "058b8c",
+      "header_background": "1f2121",
+      "header_primary": "dce0e3",
+      "highlight": "ffe266",
+      "danger": "ed4c4c",
+      "success": "583671",
+      "love": "fa6c8d"
     }
   }
 }

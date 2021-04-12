@@ -3,7 +3,7 @@
   "about_url": "https://github.com/lsst-sqre/discourse-rubin-theme/blob/main/README.md",
   "license_url": "https://github.com/lsst-sqre/discourse-rubin-theme/blob/main/LICENSE",
   "color_schemes": {
-    "Light": {
+    "Rubin Light": {
       "primary": "1f2121",
       "secondary": "ffffff",
       "tertiary": "058b8c",
@@ -15,7 +15,7 @@
       "success": "583671",
       "love": "fa6c8d"
     },
-    "Dark": {
+    "Rubin Dark": {
       "primary": "dce0e3",
       "secondary": "1f2121",
       "tertiary": "058b8c",

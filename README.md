@@ -27,6 +27,8 @@ Discourse provides several options for previewing themes during development:
 2. Use https://theme-creator.discourse.org. This works for previewing the theme itself, but does not allow for testing theme changes in conjunction with Discourse settings changes and theme components.
 3. Use a Discourse instance running locally, such as in a Docker container. This method has the advantage of providing a fully isolated development sandbox, with the disadvantage that Rubin settings are not seeded and initial content for testing is limited.
 
+The "Style Guide" is useful for identifying how the theme impacts aspects of the Discourse UI. Add `/styleguide` to the root URL path to view the style guide. To enable the style guide, search for "styleguide enabled" in the Discourse settings.
+
 ### Running a local Discourse in Docker
 
 Clone the Discourse repository:

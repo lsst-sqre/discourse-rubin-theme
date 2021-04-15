@@ -22,6 +22,12 @@ The Rubin Observatory's Discourse forum theme (coming soon!)
 
 Theme components need to be added and configured through the Discouse settings interface.
 
+#### discourse-alt-lock-icon
+
+URL: `https://github.com/lsst-sqre/discourse-alt-lock-icon`
+
+This theme component replaces the lock icon for private categories with Font Awesome's alt-unlock icon. This icon makes semantic sense for the user because if they see the unlocked icon it means that they can access this private category.
+
 ## Development
 
 ### Overview of testing workflows

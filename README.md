@@ -28,6 +28,12 @@ URL: `https://github.com/lsst-sqre/discourse-alt-lock-icon`
 
 This theme component replaces the lock icon for private categories with Font Awesome's alt-unlock icon. This icon makes semantic sense for the user because if they see the unlocked icon it means that they can access this private category.
 
+#### discourse-rubin-header
+
+URL: `https://github.com/lsst-sqre/discourse-rubin-header`
+
+This theme component adds the global navigation header to the top of the page, above the Discourse header. The navigation bar provides consistent navigation between Rubin Observatory web sites.
+
 ## Development
 
 ### Overview of testing workflows

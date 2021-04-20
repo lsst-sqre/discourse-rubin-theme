@@ -46,8 +46,9 @@ Use these setting overrides:
 | default collapsed state | expanded |
 | cookie lifespan | year |
 | banner background image | (empty) |
-| background color | `#eee` |
-| secondary text color | `#058B8c` |
+| background color | `var(--tertiary-low)` |
+| primary text color | `var(--primary)` |
+| secondary text color | `var(--primary)` |
 | main heading content | [See file](./configuration/versatile-banner/main-heading-content.html) |
 | first column content | [See file](./configuration/versatile-banner/first-column-content.html) |
 | second column content | [See file](./configuration/versatile-banner/second-column-content.html) |

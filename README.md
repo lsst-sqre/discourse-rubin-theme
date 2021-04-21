@@ -55,7 +55,7 @@ Use these setting overrides:
 | third column content | [See file](./configuration/versatile-banner/third-column-content.html) |
 | first column icon | `fa-graduation-cap` |
 | second column icon | `fa-comments` |
-| third column icon | `fa-question-circle` |
+| third column icon | `fa-external-link-alt` |
 
 ## Development
 

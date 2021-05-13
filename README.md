@@ -8,8 +8,8 @@ The Rubin Observatory's Discourse forum theme (coming soon!)
 
 | Setting | Value / description |
 | --- | --- |
-| logo | Upload `./brand-assets/forum-logo-linear.svg` |
-| logo small | Upload `./brand-assets/forum-logo-small.svg` |
+| logo | Upload `./brand-assets/forum-logo-linear-full.svg` |
+| logo small | Upload `./brand-assets/forum-logo-small-full.svg` |
 | digest logo | Upload `rubin-style-dictionary/assets/rubin-imagotype/rubin-imagotype-email.png` |
 | mobile logo | Upload `./brand-assets/forum-logo-stacked.png` |
 | favicon | Upload `rubin-style-dictionary/assets/favicon/rubin-favicon-transparent-32px.png` |

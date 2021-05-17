@@ -31,3 +31,9 @@ It should be exported as 1024x1024 PNG (the _minimum_ size recommended by Discou
 This asset is used for platform-native push notifications. It is adapted from the intermediate-size gray-on-white imagotype.
 
 Discourse recommends that this icon is monochrome with transparency. The pixel size is 96x96. Export as a PNG.
+
+## system-icon.ai
+
+This asset is intended to be used as the icon for the system user account. It's based on the intermediate-sized imagotype with a white circle background to ensure that the logo works in both light and dark themes.
+
+Export as PNG.

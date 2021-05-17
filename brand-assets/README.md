@@ -37,3 +37,7 @@ Discourse recommends that this icon is monochrome with transparency. The pixel s
 This asset is intended to be used as the icon for the system user account. It's based on the intermediate-sized imagotype with a white circle background to ensure that the logo works in both light and dark themes.
 
 Export as PNG.
+
+## manifest-icon.ai
+
+This asset is used as the app manifest icon and Apple touch icon for saving the forum to the homescreen.

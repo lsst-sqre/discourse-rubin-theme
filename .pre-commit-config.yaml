@@ -1,0 +1,36 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 'v3.4.0'
+    hooks:
+      - id: trailing-whitespace
+        exclude: "\\.ai$"
+      - id: check-yaml
+      - id: check-json
+
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: 'v7.23.0'
+    hooks:
+      - id: eslint
+        additional_dependencies:
+          - eslint
+          - eslint-config-prettier
+          - eslint-plugin-html
+          - eslint-plugin-prettier
+          - prettier@2.2.1
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: 'v2.2.1'
+    hooks:
+      - id: prettier
+        files: "\\.(\
+          js|js.es6\
+          css|less|scss\
+          |graphql|gql\
+          |html\
+          |json\
+          |md|markdown|mdown|mkdn\
+          |mdx\
+          |ts|tsx\
+          |vue\
+          |yaml|yml\
+          )$"

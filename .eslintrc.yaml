@@ -1,0 +1,7 @@
+plugins:
+  - prettier
+  - html
+extends:
+  - 'plugin:prettier/recommended'
+rules:
+  'prettier/prettier': 'error'

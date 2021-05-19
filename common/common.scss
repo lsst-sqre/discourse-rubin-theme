@@ -24,3 +24,8 @@
 .read-state {
   color: var(--tertiary);
 }
+
+// Color of unread icon in post listing on homepage
+.badge-notification.new-topic::before {
+  background: var(--tertiary);
+}

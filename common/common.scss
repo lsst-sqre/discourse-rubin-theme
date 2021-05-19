@@ -1,0 +1,15 @@
+// Customize the container around the Versatile Banner theme component
+.banner-box {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+// For the descriptions (usually <p> tags in the Versatile banner) that
+// precede the lists in Versatile Banner theme component columns.
+.rubin-banner-column-description {
+  text-align: left;
+}
+
+// For the item lists in each Versatile Banner theme component.
+.rubin-banner-list {
+  text-align: left;
+}

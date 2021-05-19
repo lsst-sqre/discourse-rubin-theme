@@ -34,6 +34,29 @@ URL: `https://github.com/lsst-sqre/discourse-rubin-header`
 
 This theme component adds the global navigation header to the top of the page, above the Discourse header. The navigation bar provides consistent navigation between Rubin Observatory web sites.
 
+#### Versatile banner
+
+URL: `https://github.com/tshenry/discourse-versatile-banner.git`
+
+Use these setting overrides:
+
+| Setting | Value / description |
+| --- | --- |
+| collapsible | :white_check_mark: |
+| default collapsed state | expanded |
+| cookie lifespan | year |
+| banner background image | (empty) |
+| background color | `var(--primary-very-low)` |
+| primary text color | `var(--primary)` |
+| secondary text color | `var(--primary)` |
+| main heading content | [See file](./configuration/versatile-banner/main-heading-content.html) |
+| first column content | [See file](./configuration/versatile-banner/first-column-content.html) |
+| second column content | [See file](./configuration/versatile-banner/second-column-content.html) |
+| third column content | [See file](./configuration/versatile-banner/third-column-content.html) |
+| first column icon | `fa-graduation-cap` |
+| second column icon | `fa-comments` |
+| third column icon | `fa-external-link-alt` |
+
 ## Development
 
 ### Overview of testing workflows

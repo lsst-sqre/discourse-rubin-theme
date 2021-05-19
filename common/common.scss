@@ -13,3 +13,14 @@
 .rubin-banner-list {
   text-align: left;
 }
+
+// Give the unread count tag on the user avatar in the header a more
+// suitable color for the dark header backgound
+.d-header-icons .unread-notifications {
+  background-color: var(--tertiary);
+}
+
+// Color of read state dot on a post (next to the post's age)
+.read-state {
+  color: var(--tertiary);
+}

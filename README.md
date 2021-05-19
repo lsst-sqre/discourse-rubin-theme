@@ -1,42 +1,87 @@
 # discourse-rubin-theme
 
-The Rubin Observatory's Discourse forum theme (coming soon!)
+The Discourse theme used on the [Vera C. Rubin Observatory LSST Community forum](https://community.lsst.org).
 
 ## Using this theme
 
-### Brand Settings in Discourse
+### Installation
+
+In the [Discourse Themes settings](https://community.lsst.org/admin/customize/themes), install this theme using the URL `https://github.com/lsst-sqre/discourse-rubin-theme`.
+
+Ensure that these settings are enabled:
+
+- :white_check_mark: Theme is enabled by default
+- :white_check_mark: Theme can be selected by users
+- :white_check_mark: Auto update when Discourse is enabled.
+
+Also ensure that the default theme is inactive. From the default theme's page, un-check "Theme is enabled by default" and "Theme can be selected by users."
+
+In conjunction with the theme itself, the full theme installation needs:
+
+- [Settings updates](#settings-in-discourse)
+- [Theme components](#associated-theme-components)
+
+### Settings in Discourse
+
+#### [Brand settings](https://community.lsst.org/admin/site_settings/category/branding)
 
 | Setting | Value / description |
 | --- | --- |
 | logo | Upload `./brand-assets/forum-logo-linear-full.svg` |
 | logo small | Upload `./brand-assets/forum-logo-small-full.svg` |
 | digest logo | Upload `rubin-style-dictionary/assets/rubin-imagotype/rubin-imagotype-email.png` |
-| mobile logo | Upload `./brand-assets/forum-logo-stacked.png` |
+| mobile logo | Upload `./brand-assets/forum-logo-stacked.svg` |
 | favicon | Upload `rubin-style-dictionary/assets/favicon/rubin-favicon-transparent-32px.png` |
 | large icon | Upload `./brand-assets/large-logo.png` |
-| push notifications icon | Upload `./brand-assets/push-icon.png` |
-| base font | SourceSansPro |
-| Heading font | SourceSansPro |
+| manifest icon | Upload `.app-manifest.png` |
+| apple touch icon | Upload `.app-manifest.png` |
+
+#### [Basic Setup settings](https://community.lsst.org/admin/site_settings/category/basic)
+
+| Setting                           | Value / description                   |
+| --------------------------------- | ------------------------------------- |
+| default dark mode color scheme id | Rubin Dark                            |
+| push notifications icon           | Upload `./brand-assets/push-icon.png` |
+| base font                         | SourceSansPro                         |
+| Heading font                      | SourceSansPro                         |
+
+#### [Customize → Colors](https://community.lsst.org/admin/customize/colors)
+
+Make `Rubin Light` and `Rubin Dark` be selectable by users. Ensure that other color schemes are not selectable.
+
+#### [System user](https://community.lsst.org/u/system/preferences/account)
+
+Set avatar to `./brand-assets/system-icon.png`.
 
 ### Associated theme components
 
-Theme components need to be added and configured through the Discouse settings interface.
+Theme components need to be added and configured through the [Discouse Customize → interface](https://community.lsst.org/admin/customize/themes).
+
+**For each component, ensure that it is included for use with the Rubin theme.**
 
 #### discourse-alt-lock-icon
 
-URL: `https://github.com/lsst-sqre/discourse-alt-lock-icon`
+:link: [`https://github.com/lsst-sqre/discourse-alt-lock-icon.git`](https://github.com/lsst-sqre/discourse-alt-lock-icon)
 
 This theme component replaces the lock icon for private categories with Font Awesome's alt-unlock icon. This icon makes semantic sense for the user because if they see the unlocked icon it means that they can access this private category.
 
 #### discourse-rubin-header
 
-URL: `https://github.com/lsst-sqre/discourse-rubin-header`
+:no_entry_sign: **This theme component isn't used in production at the moment.**
+
+:link: [`https://github.com/lsst-sqre/discourse-rubin-header.git`](https://github.com/lsst-sqre/discourse-rubin-header)
 
 This theme component adds the global navigation header to the top of the page, above the Discourse header. The navigation bar provides consistent navigation between Rubin Observatory web sites.
 
+#### discourse-rubin-footer
+
+:link: [`https://github.com/lsst-sqre/discourse-rubin-footer.git`](https://github.com/lsst-sqre/discourse-rubin-footer)
+
+This theme component adds a footer to each page. The footer contains the content disclaimer and the funding notice. It's also a good place to add observatory-wide navigation links.
+
 #### Versatile banner
 
-URL: `https://github.com/tshenry/discourse-versatile-banner.git`
+:link: [`https://github.com/tshenry/discourse-versatile-banner.git`](https://github.com/tshenry/discourse-versatile-banner.git)
 
 Use these setting overrides:
 
@@ -49,6 +94,7 @@ Use these setting overrides:
 | background color | `var(--primary-very-low)` |
 | primary text color | `var(--primary)` |
 | secondary text color | `var(--primary)` |
+| link text color | `var(--tertiary)` |
 | main heading content | [See file](./configuration/versatile-banner/main-heading-content.html) |
 | first column content | [See file](./configuration/versatile-banner/first-column-content.html) |
 | second column content | [See file](./configuration/versatile-banner/second-column-content.html) |
@@ -89,10 +135,10 @@ While this command runs, it will ask you to set up an admin account. Make a note
 Start the Discourse server:
 
 ```sh
-d/unicorn
+d/unicorn -x
 ```
 
-## Color scheme
+## Color scheme reference
 
 The color scheme is encoded in the `color_schemes` field in [`about.json`](./about.json). The semantic meanings of the variables:
 

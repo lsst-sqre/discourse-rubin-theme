@@ -15,8 +15,10 @@
 }
 
 // Give the unread count tag on the user avatar in the header a more
-// suitable color for the dark header backgound
-.d-header-icons .unread-notifications {
+// suitable color for the dark header backgound. Also for unread count in the post listing.
+.d-header-icons .unread-notifications,
+.badge-notification.new-posts,
+.badge-notification.unread-posts {
   background-color: var(--tertiary);
 }
 

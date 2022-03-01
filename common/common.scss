@@ -31,3 +31,9 @@
 .badge-notification.new-topic::before {
   background: var(--tertiary);
 }
+
+// Disable notices about new and old users.
+// https://meta.discourse.org/t/post-notices-for-first-time-and-returning-users/112078
+.post-notice {
+  display: none;
+}

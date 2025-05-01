@@ -27,8 +27,8 @@ In conjunction with the theme itself, the full theme installation needs:
 
 | Setting | Value / description |
 | --- | --- |
-| logo | Upload `./brand-assets/forum-logo-linear-full.svg` |
-| logo small | Upload `./brand-assets/forum-logo-small-full.svg` |
+| logo | Upload `./brand-assets/forum-tri-logo-full-2x.svg` |
+| logo small | Upload `./brand-assets/forum-tri-logo-2x.png` |
 | digest logo | Upload `rubin-style-dictionary/assets/rubin-imagotype/rubin-imagotype-email.png` |
 | mobile logo | Upload `./brand-assets/forum-logo-stacked.svg` |
 | favicon | Upload `rubin-style-dictionary/assets/favicon/rubin-favicon-transparent-32px.png` |

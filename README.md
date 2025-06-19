@@ -27,10 +27,10 @@ In conjunction with the theme itself, the full theme installation needs:
 
 | Setting | Value / description |
 | --- | --- |
-| logo | Upload `./brand-assets/forum-tri-logo-full-2x.svg` |
-| logo small | Upload `./brand-assets/forum-tri-logo-2x.png` |
-| digest logo | Upload `rubin-style-dictionary/assets/rubin-imagotype/rubin-imagotype-email.png` |
-| mobile logo | Upload `./brand-assets/forum-logo-stacked.svg` |
+| logo | Upload `./brand-assets/forum-logo-badge.png` |
+| logo small | Upload `./brand-assets/forum-logo-badge.png` |
+| digest logo | Upload `rubin-style-dictionary/assets/rubin-imagotype/forum-tri-logo.png` |
+| mobile logo | Upload `./brand-assets/forim-logo-mobile.svg` |
 | favicon | Upload `rubin-style-dictionary/assets/favicon/rubin-favicon-transparent-32px.png` |
 | large icon | Upload `./brand-assets/large-logo.png` |
 | manifest icon | Upload `.app-manifest.png` |

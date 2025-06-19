@@ -67,11 +67,9 @@ This theme component replaces the lock icon for private categories with Font Awe
 
 #### discourse-rubin-header
 
-:no_entry_sign: **This theme component isn't used in production at the moment.**
-
 :link: [`https://github.com/lsst-sqre/discourse-rubin-header.git`](https://github.com/lsst-sqre/discourse-rubin-header)
 
-This theme component adds the global navigation header to the top of the page, above the Discourse header. The navigation bar provides consistent navigation between Rubin Observatory web sites.
+This theme component adds the triad logo the top of the page, above the Discourse header.
 
 #### discourse-rubin-footer
 
